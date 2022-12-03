@@ -1,10 +1,14 @@
-str_template = 'hello, {} from {}!'
+# -- Part 1 --
+numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9]
 
-line = str_template.format('yash', 'ina')
+evens = []
+for number in numbers:
+    if number % 2 == 0:
+        evens.append(number)
 
-print(line)
-
-name = 'yash'
-str_template2 = f'hello, {name}!'
-
-print(str_template2)
+# -- Part 2, must be completed before submitting! --
+user_input = input("Enter your choice: ")
+if user_input == "a":
+    print("Add")
+elif user_input == "1":
+    print("Quit")
