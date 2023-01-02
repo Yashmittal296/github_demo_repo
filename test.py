@@ -4,3 +4,4 @@ def kartik():
         print('yess')
 
 kartik()
+print('function called')
