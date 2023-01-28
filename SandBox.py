@@ -1,4 +1,8 @@
-t = int(input())
-list_dimensions = []
-for i in range(0, t):
-    list_dimensions.append([int(element) for element in str(input()).split(' ')])
+class Sum:
+    def get_sum(self, a, b):
+
+
+        data = {
+            'sum': a + b
+        }
+        return data
