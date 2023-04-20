@@ -1,0 +1,12 @@
+Topic	Status
+Devops	Pending
+Kubernetes	Pending
+Docker	Pending
+Python Full	Pending
+Data Structures & Algorithm	Pending
+SQL Full	Pending
+Pyspark	Pending
+Hadoop, Hive	Pending
+Data Science	Pending
+Data Engineering	Pending
+CI/Cd Jenkins Etc	Pending

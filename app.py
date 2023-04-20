@@ -1,20 +1,19 @@
 import json
 
-import flask
-from flask import Flask
-import SandBox as sm
+from flask import Flask, request
+import SandBox as Sb
 
 app = Flask(__name__)
 
 
 @app.route('/yash', methods=['POST'])
 def get_sum():
-    json_input = flask.request.data.decode('utf-8')
+    json_input = request.data.decode('utf-8')
     dict_input = json.loads(json_input)
     a = dict_input['a']
     b = dict_input['b']
-    Obj_Sm = sm.Sum()
-    result = Obj_Sm.get_sum(a, b)
+    objSb = Sb.Sum()
+    result = objSb.get_sum(a, b)
     return result
 
 
