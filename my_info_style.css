@@ -1,0 +1,21 @@
+/* .name-class {
+    text-align: left;
+    color: pink;
+    font-size: 30px;
+    font-family: monospace;
+} */
+
+p {
+    text-align: center;
+    color: black;
+    font-size: 40px;
+    font-weight: 100 !important;
+    transition: 1s;
+}
+
+p:hover {
+    background-color: black;
+    color: white;
+    transition: 1s;
+    transform: scale(2);
+}
